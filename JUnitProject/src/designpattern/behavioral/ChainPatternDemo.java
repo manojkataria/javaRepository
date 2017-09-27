@@ -12,7 +12,6 @@ public class ChainPatternDemo {
 		fileLogger.setNextLogger(consoleLogger);
 
 		return errorLogger;
-		
 	}
 
 	public static void main(String[] args) {
